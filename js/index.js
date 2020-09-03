@@ -26,12 +26,12 @@ history.addEventListener('click', () => {
 movies.addEventListener('click', () => {
   chosenCategory = '11';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('../game.html');
 });
 music.addEventListener('click', () => {
   chosenCategory = '12';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('../game.html');
 });
 generalKnowledge.addEventListener('click', () => {
   chosenCategory = '9';
