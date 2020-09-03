@@ -29,7 +29,7 @@ saveHighScore = (e) => {
   // transform integer into string to store in the local storage
   localStorage.setItem('highScores', JSON.stringify(highScores));
 
-  window.location.assign('../QuizGame'); //  go to home page
+  window.location.assign('../QuizGame/index.html'); //  go to home page
 };
 
 // event listeners
