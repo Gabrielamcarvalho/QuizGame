@@ -15,23 +15,23 @@ let chosenCategory;
 geography.addEventListener('click', () => {
   chosenCategory = '22';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 
 history.addEventListener('click', () => {
   chosenCategory = '23';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 movies.addEventListener('click', () => {
   chosenCategory = '11';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 music.addEventListener('click', () => {
   chosenCategory = '12';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 generalKnowledge.addEventListener('click', () => {
   chosenCategory = '9';
@@ -41,30 +41,30 @@ generalKnowledge.addEventListener('click', () => {
 television.addEventListener('click', () => {
   chosenCategory = '14';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 sports.addEventListener('click', () => {
   chosenCategory = '21';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 science.addEventListener('click', () => {
   chosenCategory = '17';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 celebrities.addEventListener('click', () => {
   chosenCategory = '26';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 animals.addEventListener('click', () => {
   chosenCategory = '27';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 play.addEventListener('click', () => {
   chosenCategory = '0';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
