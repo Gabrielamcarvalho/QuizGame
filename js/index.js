@@ -15,13 +15,13 @@ let chosenCategory;
 geography.addEventListener('click', () => {
   chosenCategory = '22';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 
 history.addEventListener('click', () => {
   chosenCategory = '23';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 movies.addEventListener('click', () => {
   chosenCategory = '11';
