@@ -17,6 +17,11 @@ geography.addEventListener('click', () => {
   localStorage.setItem('category', chosenCategory);
   window.location.assign('./game.html');
 });
+generalKnowledge.addEventListener('click', () => {
+  chosenCategory = '9';
+  localStorage.setItem('category', chosenCategory);
+  window.location.assign('./game.html');
+});
 
 history.addEventListener('click', () => {
   chosenCategory = '23';
