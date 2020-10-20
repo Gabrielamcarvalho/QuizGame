@@ -36,7 +36,7 @@ music.addEventListener('click', () => {
 generalKnowledge.addEventListener('click', () => {
   chosenCategory = '9';
   localStorage.setItem('category', chosenCategory);
-  window.location.assign('/game.html');
+  window.location.assign('./game.html');
 });
 television.addEventListener('click', () => {
   chosenCategory = '14';
